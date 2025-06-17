@@ -11,7 +11,7 @@ function App() {
 
     return (
         <div>
-            <label>Enter your surname 123:
+            <label>Enter your surname:
                 <input type="text" onChange={e => onChangeHandler(e)}/>
             </label>
             Dein Eingabe lautet: {name}
