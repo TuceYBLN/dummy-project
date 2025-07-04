@@ -14,7 +14,7 @@ function App() {
             <label>Gib deinen Namen an:
                 <input type="text" onChange={e => onChangeHandler(e)}/>
             </label>
-            Deine Eingabe lautete: {name}
+            Deine Eingabe lautet: {name}
         </div>
     );
 }
