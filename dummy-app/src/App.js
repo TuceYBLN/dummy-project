@@ -11,11 +11,9 @@ function App() {
 
     return (
         <div>
-            <h1>Herzlich Willkommen</h1>
             <label>Gib deinen Namen an:
                 <input type="text" onChange={e => onChangeHandler(e)}/>
             </label>
-            <br/>
             Deine Eingabe lautet: {name}
         </div>
     );
