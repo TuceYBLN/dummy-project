@@ -12,7 +12,7 @@ function App() {
     return (
         <div>
 
-            <label>Gib deinen Namen an:
+            <label>Gib DEINEN Namen an:
                 <input type="text" onChange={e => onChangeHandler(e)}/>
             </label>
             Deine Eingabe lautet: {name}
